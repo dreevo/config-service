@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: dreevo/edge-service
+  IMAGE_NAME: dreevo/config-service
   VERSION: ${{ github.sha }}
 
 jobs:
